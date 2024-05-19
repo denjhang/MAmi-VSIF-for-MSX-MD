@@ -1,6 +1,7 @@
 # MAmi-VSIF for MSX+MD
  The open source hardware implementation of the VSIF standard can be completed using the red FT232 module that can be easily purchased on Alex. No complicated welding is required. The current hardware supports both MSX and MD devices.    
- The currently supported software is VGM player and MamidiMEMO. For details, see here: https://github.com/110-kenichi/mame  
+ The currently supported software is VGM player and MamidiMEMO. For details, see here:   
+ https://github.com/110-kenichi/mame  
 ## Connect to 1ChipMSX (clone)  
 The latest version of the vgmplay program fully supports 1ChipMSX's PSG+OPLL+SCC1, but it needs to be used in a certain order to be used normally. First use mini usb to connect to the FTDI module, then open vgmplay. At this time, first check whether the words "usb serial port (com7)" appear in the device manager. If not, you need to install the driver.  
 ![image](https://github.com/denjhang/MAmi-VSIF-for-MSX-MD/blob/main/Setting/COM%20Port.png)  
